@@ -35,7 +35,12 @@ const Hello = () => {
           </button>
         </a>
       </div>
-      <p>{window.electron.system}</p>
+
+      {window.electron.system ? (
+        <p>Systema operacional: {window.electron.system}</p>
+      ) : (
+        <p>Sistema operacional: Ubuntu</p>
+      )}
     </div>
   );
 };
