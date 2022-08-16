@@ -35,6 +35,7 @@ const Hello = () => {
           </button>
         </a>
       </div>
+      <p>{window.electron.system}</p>
     </div>
   );
 };
