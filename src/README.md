@@ -1,6 +1,8 @@
 # Manual
 
-## Como é a comunicação main -> renderer
+- [passando variáveis do main para o renderer](#passando-variáveis-do-main-para-o-renderer)
+
+## passando variáveis do main para o renderer
 
 1. No arquivo **main/preload.ts** você cria as funções que usarão informações do sistema operacional.
 
